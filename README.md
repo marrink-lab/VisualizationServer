@@ -11,9 +11,9 @@ It will stay on pending a bit longer then it really is (I assume a refresh thing
 
 You then can click on the screen and it will open a new browser with the interactive session.
 
-*Current local drives*
-/local  11TB of spinning disks (6x 2TB in raid0)
-/nvme 12TB of nvme disks (4x 3.2TB in raid0) (should be extreme fast).
+**Current local drives**
+* /local  11TB of spinning disks (6x 2TB in raid0)
+* /nvme 12TB of nvme disks (4x 3.2TB in raid0) (should be extreme fast).
 
 ## How to raise issues
 Each issue is to be raised using the GIT issue tracker at the top of this page. For proper tracking it is important to flag your issues accordingly using the flag system on the right of the issue page. Different flags could be (bug, suggestion, question, etc.). Make sure you use an informative title and add in case of a bug, adding the error message and a reproduction method is extremely useful for resolving the issue.
