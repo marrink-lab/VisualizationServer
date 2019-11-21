@@ -1,5 +1,5 @@
 # VisualizationServer
-Managing all issues and suggestions regarding the Visualization Server. This tracking is meant for issues raised by users both inside the Molecular Dynamics group, and users within the University of Groningen.
+Managing all user guides, issues and suggestions regarding the Visualization Server. This tracking is meant for users of the Molecular Dynamics group or users part of the University of Groningen.
 
 ## Proper usage
 Current usage of the VisualizationServer for everyone occurs in a non-forced scheduled manner. For the Molecular Dynamics group we advice booking the server in advance using the MD group calender (a booked person always has priority over a non-booked user!). The server is available during the day and at night. Please keep in mind that as long as you are using the service, nobody else can use it. This means that keeping a session open without actual usage is regarded unwanted. Therefore it is important to log out and close your session whenever you are done with using the service. The computer has some local storage available which you can use during processing (using the raid NVMe drives should result in very fast I/O). CIT has not scripted cleanup yet, so clean up all local storage if you will not be needing it anymore in the near future.
@@ -16,7 +16,7 @@ You then can click on the screen and it will open a new browser with the interac
 * /nvme 12TB of nvme disks (4x 3.2TB in raid0) (should be extremely fast)
 
 ## How to raise issues
-Each issue is to be raised using the GIT issue tracker at the top of this page. Make sure you use an informative title and always start your issue with a short description of what your were doing. For proper tracking it is important to flag your issues accordingly using the flag system on the right of the issue page. Different flags could be (bug, suggestion, question, etc.), adding the error message and a reproduction method is extremely useful for resolving the issue efficiently.
+Each issue is to be raised using the GIT issue tracker at the top of this page. Make sure you use an informative title and always start your issue with a short description of what your were doing. For proper tracking it is important to flag your issues accordingly using the flag system on the right of the issue page. Different flags could be (bug, suggestion, question, etc.), adding the error message and a reproduction method is extremely useful for resolving the issue efficiently. Please do a quick scan through the issues to see if an issue similar to yours has been raised already, if so, add your issue as a comment to the already existing one.
 
 ## Current machine specifications
 * 2x Intel Xeon Gold 6148 2.4GHz, 20C/40T, 10.4GT/s 2UPI, 27M Cache, Turbo, HT (150W) DDR4-2666 
