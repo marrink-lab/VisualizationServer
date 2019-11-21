@@ -5,14 +5,15 @@ Managing all issues and suggestions regarding the Visualization Server. This tra
 Current usage of the VisualizationServer for everyone occurs in a non-forced scheduled manner. For the Molecular Dynamics group we advice booking the server in advance using the MD group calender (a booked person always has priority over a non-booked user!). The server is available during the day and at night. Please keep in mind that as long as you are using the service, nobody else can use it. This means that keeping a session open without actual usage is regarded unwanted. Therefore it is important to log out and close your session whenever you are done with using the service. The computer has some local storage available which you can use during processing (using the raid NVMe drives should result in very fast I/O). CIT has not scripted cleanup yet, so clean up all local storage if you will not be needing it anymore in the near future.
 
 ## Starting the service
-If you go to: https://nice.hpc.rug.nl and click on "views" then login with you pnumber you should see a button called "Lab01".
+If you go to: https://nice.hpc.rug.nl and click on "views" and login with you pnumber, you should see a button called "Lab01".
 When clicked, this will queue an interactive session (so you have to wait a minute for it to startup). 
-It will stay on pending a bit longer then it really is (I assume a refresh thing) but if you click on the expand button below the pending message/screenshot and then details it will show you its running.
+It will stay on pending a bit longer then it really is (I assume a refresh thing) but if you click on the expand button below the pending message/screenshot and then click on details it will show you its running.
 
 You then can click on the screen and it will open a new browser with the interactive session.
 
-The supported local storage: /local  11TB of spinning disks (6x 2TB in raid0)
-The unsupported local storage: /nvme 12TB of nvme disks (4x 3.2TB in raid0) (should be extreme fast).
+*Current local drives*
+/local  11TB of spinning disks (6x 2TB in raid0)
+/nvme 12TB of nvme disks (4x 3.2TB in raid0) (should be extreme fast).
 
 ## How to raise issues
 Each issue is to be raised using the GIT issue tracker at the top of this page. For proper tracking it is important to flag your issues accordingly using the flag system on the right of the issue page. Different flags could be (bug, suggestion, question, etc.). Make sure you use an informative title and add in case of a bug, adding the error message and a reproduction method is extremely useful for resolving the issue.
