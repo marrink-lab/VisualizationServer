@@ -1,6 +1,8 @@
 # VisualizationServer
 Managing all user guides, issues and suggestions regarding the Visualization Server. This tracking is meant for users of the Molecular Dynamics group or users part of the University of Groningen.
 
+### CURRENT STATUS = Offline due to hardware failure
+
 ## Proper usage
 Current usage of the VisualizationServer for everyone occurs in a non-forced scheduled manner. For the Molecular Dynamics group we advice booking the server in advance using the MD group calender (a booked person always has priority over a non-booked user!). The server is available during the day and at night. Please keep in mind that as long as you are using the service, nobody else can use it. This means that keeping a session open without actual usage is regarded unwanted. Therefore it is important to log out and close your session whenever you are done with using the service. The computer has some local storage available which you can use during processing (using the raid NVMe drives should result in very fast I/O). CIT has not scripted cleanup yet, so clean up all local storage if you will not be needing it anymore in the near future.
 
