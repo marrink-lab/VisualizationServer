@@ -14,7 +14,7 @@ It will stay on pending a bit longer then it really is (I assume a refresh thing
 You then can click on the screen and it will open a new browser with the interactive session.
 
 **Current local drives**
-* /local  11TB of spinning disks (6x 2TB in raid0)
+* /local  7.3TB of spinning disks (6x 2TB in raid5)
 * /nvme 12TB of nvme disks (4x 3.2TB in raid0) (should be extremely fast)
 
 ## How to raise issues
