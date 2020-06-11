@@ -1,5 +1,5 @@
 # VisualizationServer
-Managing all user guides, issues and suggestions regarding the Visualization Server. This tracking is meant for users of the Molecular Dynamics group or users part of the University of Groningen.
+Managing all user guides, issues and suggestions regarding the Visualization Server. This tracking is meant for users of the Molecular Dynamics group or users part of the University of Groningen. Take a look at the WIKI to learn about how to utilize certain programs efficiently on the server (e.g. VMD). 
 
 ### CURRENT STATUS = Up
 
